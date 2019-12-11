@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Practice</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+	<div>
+		<label for="firstName">First Name</label>
+		<input id="firstName" type="text" placeholder="John" required>
+		<label for="lastName">Last Name</label>
+		<input id="lastName" type="text" placeholder="Smith" required>
+	</div>
+	<div>
+		<label for="Male">Male</label>
+		<input name="gender" id="Male" type="radio">
+		<label for="Female">Female</label>
+		<input name="gender" id="Male" type="radio">
+		<label for="other">Other</label>
+		<input name="gender" id="other" type="radio">
+	</div>
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" type="email" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password" required minlength="5" maxlength="10">
+	</div>
+	<div>
+		<label>Birthday:
+			<select name="month">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+			</select>
+			<select name="day">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+			</select>
+			<select name="year">
+				<option>Year</option>
+				<option>1990</option>
+				<option>1991</option>
+			</select>
+		</label>
+	</div>
+	<div>
+		<label for="agreement">I agree to the terms and conditions</label>
+		<input id="agreement" type="checkbox">
+	</div>
+	<button>Submit</button>
+</form>
+
+
+</body>
+</html>

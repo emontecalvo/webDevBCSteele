@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Practice</title>
+</head>
+<body>
+
+<h1>Login</h1>
+<form action="http://wikipedia.org" method="get">
+  <label for="username">email </label>
+  <input id="username" type="email" placeholder="email" required>
+  <label for="password">password: </label>
+  <input id="password" type="password" placeholder="password" required>
+  <input type="submit">
+</form>
+
+<p>do you prefer cats or dogs?</p>
+
+<form>
+  <label for="dogs">Dogs:</label>
+  <input name="petChoice" id="dogs" type="radio" value="DOGS">
+  <label for="cats">Cats:</label>
+  <input name="petChoice" id="cats" type="radio" value="CATS">
+  <select name="color">
+    <option value="happy">blue</option>
+    <option value="neautral">red</option>
+    <option value="sad">yellow</option>
+  </select>
+
+  <textarea name="paragraph" rows="10" cols="50" placeholder="fill me in"></textarea>
+  <button>Go!</button>
+</form>
+
+</body>
+</html>
